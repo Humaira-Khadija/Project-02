@@ -4,7 +4,8 @@
 }
 
 .body {
-  font-family: "Roboto", sans-serif;
+    font-family: "Savate", sans-serif;
+
   position: relative;
 }
 
@@ -61,11 +62,12 @@
   gap: 19px;
 }
 .div-3 h1 {
-  font-size: 60px;
+  font-size: 30px;
 }
 
 .div-3 h1 span {
   color: #89c5cc;
+  font-size: 30PX;
 }
 .div-3 p {
 
@@ -79,8 +81,9 @@
   background-color: #69b99d;
   color: white;
   border: none;
-  padding: 8px;
+  padding: 12px;
   width: 100px;
+  border-radius: .3rem;
 }
 
 .last-part {
@@ -112,5 +115,20 @@
     bottom: 0;
     right: 0;
 }
+@media only screen and (max-width:600px) {
+  .main-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+  
+}
+@media only screen and(max-width:768) {
+ .main-container{
+  display: flex;
+  flex-direction: column;
+ }
+}
+  
 
 
