@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+}
+
+.max-width {
+  max-width: 1040px;
+  margin: auto;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  /* padding: 26px; */
+}
+
+.item{
+    display: flex;
+    gap: 30px;
+}
+.item a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.div-1 {
+  color: #89c5cc;
+  font-size: 20px;
+}
+.div-2 span {
+  color: black;
+  font: bold;
+}
+
+.div-2 li {
+  color: #7e7e7e;
+}
+.main-content {
+  margin-top: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+.div-3 h1 {
+  font-size: 60px;
+}
+
+.div-3 h1 span {
+  color: #89c5cc;
+  font-size: 60px;
+}
+.div-3 p {
+  color: #7d7987;
+  font-size: 25px;
+}
+.div-3 p span {
+  font: bolder;
+  color: black;
+}
+.button {
+  background-color: #69b99d;
+  color: white;
+  border: none;
+  padding: 8px;
+  width: 100px;
+}
+
+.last-part {
+  display: flex;
+  justify-content: space-between;
+  font-size: 19px;
+
+  text-align: center;
+  margin-bottom: 20px;
+}
+.last {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.last p {
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  padding-top: 30px;
+  bottom: 16px;
+}
